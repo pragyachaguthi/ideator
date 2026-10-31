@@ -106,6 +106,7 @@ GEM
     drb (2.2.3)
     erb (6.0.7)
     erubi (1.13.1)
+    fiddle (1.1.8)
     globalid (1.4.0)
       activesupport (>= 6.1)
     i18n (1.15.2)
@@ -258,6 +259,9 @@ GEM
       logger (~> 1.4)
       rubyzip (>= 1.2.2, < 4.0)
       websocket (~> 1.0)
+    simple_form (5.4.1)
+      actionpack (>= 7.0)
+      activemodel (>= 7.0)
     sprockets (4.4.1)
       concurrent-ruby (~> 1.1)
       logger
@@ -312,6 +316,7 @@ DEPENDENCIES
   brakeman
   capybara
   debug
+  fiddle
   importmap-rails
   jbuilder
   pg
@@ -319,6 +324,7 @@ DEPENDENCIES
   rails (~> 7.2.3, >= 7.2.3.2)
   rubocop-rails-omakase
   selenium-webdriver
+  simple_form (~> 5.3)
   sprockets-rails
   sqlite3 (>= 1.4)
   stimulus-rails
@@ -358,6 +364,7 @@ CHECKSUMS
   drb (2.2.3) sha256=0b00d6fdb50995fe4a45dea13663493c841112e4068656854646f418fda13373
   erb (6.0.7) sha256=c5ca6dc25b0ef974a44dc8f59fe847577122483b1968a38dec305c60bf91ee92
   erubi (1.13.1) sha256=a082103b0885dbc5ecf1172fede897f9ebdb745a4b97a5e8dc63953db1ee4ad9
+  fiddle (1.1.8) sha256=7fa8ee3627271497f3add5503acdbc3f40b32f610fc1cf49634f083ef3f32eee
   globalid (1.4.0) sha256=037f12fbf1d9d7a014d501c2d5c77356fd4ddd96d7a7991d6700bba96706f427
   i18n (1.15.2) sha256=00f9eb62412fe593b2a65a97daa75300d37abb8f7202ec748e94b6d46a9dd1b5
   importmap-rails (2.2.3) sha256=7101be2a4dc97cf1558fb8f573a718404c5f6bcfe94f304bf1f39e444feeb16a
@@ -415,6 +422,7 @@ CHECKSUMS
   rubyzip (3.7.0) sha256=65c19294da75297a939006f3516deacc33185fbd721ff1954f7a231db6d3e121
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   selenium-webdriver (4.52.0) sha256=5d45ba100ea8b57f5a8c25979a636d48b4c60c39973478930d78e884bdeecd2d
+  simple_form (5.4.1) sha256=58c3d229034c7e5545035c3271b6f030ef730c340b9d7d8eb730e0a385b20808
   sprockets (4.4.1) sha256=fbd665edad0916de5c7abefef0fc616866a60c5e48ce2846f39ac3fc5df9e184
   sprockets-rails (3.5.2) sha256=a9e88e6ce9f8c912d349aa5401509165ec42326baf9e942a85de4b76dbc4119e
   sqlite3 (2.10.2-x64-mingw-ucrt) sha256=7fe1bf1adfca4fffeaec27371e0a20c1162d9d985681ec9560971a44fc41d198
